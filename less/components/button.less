@@ -1,0 +1,17 @@
+//vars
+@btn-bg-color: #22283A;
+@btn-font-color: white;
+
+.button(@btn-color, @btn-bg, @btn-size){
+  color: @btn-color;
+  background: @btn-bg;
+  width: @btn-size;
+}
+.sign-in-button(@btn-color, @btn-bg, @btn-size){
+ .button(@btn-color, @btn-bg, @btn-size);
+  padding: 2%;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid black;
+  font-size: 1.6rem;
+}
